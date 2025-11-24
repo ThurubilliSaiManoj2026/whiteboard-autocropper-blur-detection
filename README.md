@@ -1,5 +1,5 @@
 # whiteboard-autocropper-blur-detection
-Streamlit app leveraging OpenCV for automated whiteboard detection, contour extraction, and perspective warping. Implements Laplacian variance-based blur detection for image quality assessment. Features adaptive thresholding for enhanced clarity and provides real-time image processing with download functionality.
+Streamlit interface leveraging OpenCV for automated whiteboard detection, contour extraction, and perspective warping. Implements Laplacian variance-based blur detection for image quality assessment. Features adaptive thresholding for enhanced clarity and provides real-time image processing with download functionality.
 This project is a Streamlit-based web app that automates whiteboard image cropping and enhancement using advanced computer vision techniques. Users upload photos of whiteboards, and the app executes the following steps:
 
 Blur Detection: Uses Laplacian variance (cv2.Laplacian) to assess image sharpness. If blur variance < 100, user is prompted to retake the photo to ensure clarity.
