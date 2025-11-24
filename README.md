@@ -30,3 +30,8 @@ To launch the Streamlit app, run:
 streamlit run app.py
 
 undefined
+
+## Live Demo
+
+You can access the live Streamlit app here:  
+[Whiteboard Auto Cropper and OCR App](https://white-board-auto-cropper-blur-detection-with-ocr-kb6p4yd67tapf.streamlit.app/)
