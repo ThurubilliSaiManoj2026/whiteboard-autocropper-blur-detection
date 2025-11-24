@@ -16,3 +16,17 @@ Image Enhancement: Applies adaptive thresholding (cv2.adaptiveThreshold) to impr
 
 UI & Interaction: Streamlit displays the original, contour-highlighted, and final enhanced images side-by-side, with a download button to save the output as PNG.
 My vision is to extend this web app into a mobile-friendly application for students, enabling effortless capture and digitization of whiteboard notes during lectures, improving note-taking productivity and accessibility.
+
+## Installation
+
+To install the required Python packages, run:
+
+pip install -r requirements.txt
+
+## Running the App
+
+To launch the Streamlit app, run:
+
+streamlit run app.py
+
+undefined
